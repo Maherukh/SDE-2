@@ -1,0 +1,75 @@
+# Full stack 
+Short answer: You’re close, but for Google SDE2 you need a higher bar on algorithms speed/coverage, deeper systems design, and fluency in a Google interview language (Java, C++ or Go). Your 36‑week plan is an excellent full‑stack track. Add the deltas below to convert it into an SDE2‑ready plan.
+
+What to add or tighten (delta to your plan)
+
+Interview language
+
+Pick one: Java, C++ or Go. Do 100% of interview practice in it.
+Ramp in 2–3 weeks: syntax, collections, string APIs, sorting, PriorityQueue/heap, maps/sets, custom comparators, and I/O.
+Targets: no IDE/autocomplete; compile mentally; write bug‑free medium in ≤20 min.
+Algorithms depth and volume
+
+Coverage: arrays/strings, hash maps/sets, two pointers, sliding window, linked lists, stacks/queues, trees/BST, graphs (BFS/DFS, topological, SCC), heaps, intervals, binary search patterns, recursion/backtracking, greedy, union‑find, shortest paths (Dijkstra/Bellman‑Ford), tries, DP (1D/2D, knapsack, LIS/LCS, tree/graph DP), string algos (KMP/Z/rolling hash), math/mod, probability basics.
+Volume targets (unique solved):
+By week 12: 75 mediums + 15 hards
+By week 24: 150 mediums + 40 hards
+By week 36: 220–300 total (incl. 60–80 hards across topics)
+Speed targets: easy ≤10 min, medium ≤20 min, hard ≤35 min; space/time analysis before coding.
+Drills: 3 problems/day on weekdays; 1–2 hards on weekend; 2 timed mocks/week in the last 8 weeks.
+System design (SDE2 depth)
+
+Foundations: consistency models; transactions and isolation; indexing (B‑tree/LSM), storage engines; caching tiers; sharding/partitioning; replication (leader/follower, quorum); message queues; idempotency/exactly‑once myths; backpressure; rate limiting; tail latency; SLO/error budgets.
+Build 12+ end‑to‑end designs: URL shortener, news feed, chat, search autocomplete, logging pipeline, object storage, rate limiter, payments flow, analytics counter, video streaming, notifications, doc collaboration.
+For each: requirements, APIs, data model, capacity estimates, partitioning/replication, consistency and failure handling, back‑of‑envelope numbers, risks/trade‑offs.
+Practice 1 full design/week in the final 12 weeks; 4 live mocks before interviews.
+CS fundamentals polish
+
+OS/Concurrency: threads vs async, locks, deadlocks, scheduling, memory hierarchy, CPU cache effects.
+Networking: TCP/TLS, HTTP/2+3, gRPC; connection pooling; head‑of‑line blocking; Nagle/Delayed ACKs (awareness).
+Databases: indexing strategies, query plans, transactions (2PC/Sagas), hot partitions.
+Behavioral/GCA
+
+Structure answers with STAR; emphasize ownership, debugging under ambiguity, impact, cross‑team collaboration, mentorship (SDE2 signal).
+Keep a log of 12–16 stories mapped to categories: leadership, conflict, failure, delivery under pressure, data‑driven decisions.
+8‑week pre‑interview sprint overlay (use this ahead of loops)
+
+Mon–Fri (2–3 h/day): 2 mediums + 1 hard timed; 20 min review/refactor; 15 min flashcards (patterns, edge cases).
+3 days/week: 30 min system design micro‑drill (one subproblem: rate limiting, secondary index, write amplification).
+Weekend: 1 full system design mock (45–60 min) + 2 hards; write a 1‑page design doc.
+Weekly: 1 live coding mock + 1 live design mock with feedback; track solve time and error rate.
+Readiness rubric (use as a gate)
+
+Coding
+≥90% of blind mediums ≤20 min, ≤1 bug; ≥60% of hards ≤35 min.
+250±50 unique problems total with balanced topic histogram (no topic <5%).
+System design
+Can drive a 45–60 min design with clear requirements, numbers, trade‑offs; no major gaps on consistency/backpressure/sharding.
+10+ well‑written design docs with capacity estimates.
+Communication
+States approach, alternatives, and tests before coding; probes constraints; narrates trade‑offs.
+Behavioral
+12+ STAR stories; concise 2–3 min narratives; clear lessons/impact.
+Suggested resources (keep it focused)
+
+Coding/DSA
+NeetCode 150 + LeetCode Top 100 Liked + Graphs/DP/Hard lists; LeetCode Premium for filters.
+CP‑Algorithms (reference), EPI or CTCI for patterns.
+System design
+Designing Data‑Intensive Applications (DDIA), System Design Interview Vol. 1–2 (use as scaffolding), ByteByteGo visuals, Donne Martin’s System Design Primer.
+Fundamentals
+Networking: High Performance Browser Networking (relevant chapters), Beejs’ guides.
+OS: OSTEP selected chapters (processes, scheduling, concurrency).
+Mocks
+Pramp/Interviewing.io/peer mocks; record and review.
+How to adapt your existing 36‑week plan
+
+Keep your project/FS phases for portfolio and practical skills.
+Add a daily DSA slot (45–90 min) on Mon–Fri and expand Day‑6 interview prep to 2–3 hours with 1–2 hards + 1 design micro‑drill.
+Replace 25–32 (cloud deep dives) with a heavier algorithms block if you’re under the DSA targets.
+Switch all interview practice to Java/C++/Go by Week 6 at the latest.
+Bottom line
+
+With the added deltas (language switch, DSA volume/speed, deeper design, deliberate mocks), this plan is strong enough to hit the Google SDE2 bar for many teams.
+Without those deltas, it’s excellent for full‑stack roles but may fall short on algorithmic speed and SDE2‑level design depth typically expected at Google.
+If you share your chosen language and current problem counts/times, I can tailor a precise 8‑week sprint and a topic‑balanced problem set next.
